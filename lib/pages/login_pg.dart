@@ -1,3 +1,5 @@
+import 'package:e_commerce/pages/google_nav_bar.dart';
+// ignore: unused_import
 import 'package:e_commerce/pages/home_pg.dart';
 import 'package:e_commerce/pages/signup_pg.dart';
 import 'package:flutter/material.dart';
@@ -191,7 +193,7 @@ class _LoginPageState extends State<LoginPage> {
                     // Login logic here
                    Navigator.push(
                    context,
-                   MaterialPageRoute(builder: (context) => const HomePage()),
+                   MaterialPageRoute(builder: (context) => const MyBottomNavBar()),
                    );
                    } else {
                  ScaffoldMessenger.of(context).showSnackBar(

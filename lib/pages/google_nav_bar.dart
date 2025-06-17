@@ -26,7 +26,7 @@ class _MyBottomNavBarState extends State<MyBottomNavBar> {
   final List<Widget> pages = [
     const HomePage(),
     const FavoritePage(),
-    const CartPage(),
+       CartPage(),
     const AboutPage(),
   ];
 
@@ -42,7 +42,7 @@ class _MyBottomNavBarState extends State<MyBottomNavBar> {
             topLeft: Radius.circular(20),
             topRight: Radius.circular(20)
           ),
-          color: Colors.white,
+          color: Colors.grey[200],
           boxShadow: [
             BoxShadow(
               blurRadius: 20,
@@ -58,11 +58,11 @@ class _MyBottomNavBarState extends State<MyBottomNavBar> {
               rippleColor: Colors.grey[300]!,
               hoverColor: Colors.grey[100]!,
               gap: 8,
-              activeColor: Colors.black,
+              activeColor: Colors.red,
               iconSize: 24,
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
               duration: const Duration(milliseconds: 400),
-              tabBackgroundColor: Colors.grey[100]!,
+              tabBackgroundColor: Colors.grey[400]!,
               color: Colors.black,
               tabs: const [
                   GButton(

@@ -1,5 +1,4 @@
-// ignore: unused_import
-import 'package:e_commerce/pages/bottom_bar.dart';
+
 // ignore: unused_import
 import 'package:e_commerce/pages/home_pg.dart';
 // ignore: unused_import
@@ -26,7 +25,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:  MyBottomNavBar(),
+      
+      home:  SplashScreen(),
     );
   }
 }
