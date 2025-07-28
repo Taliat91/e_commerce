@@ -31,8 +31,8 @@ class _SplashScreenState extends State<SplashScreen> {
         decoration: BoxDecoration(
           gradient: LinearGradient(
           colors: [
-            Color.fromARGB(255, 143, 255, 52),
-            Color.fromARGB(255, 86, 242, 94),
+            Color.fromARGB(255, 222, 233, 223),
+            Color.fromARGB(255, 222, 233, 223),
           ]
           ),
         ),
@@ -43,13 +43,14 @@ class _SplashScreenState extends State<SplashScreen> {
               Text('E - C o m m e r c e App',
               style: TextStyle(
                 fontSize: 50,
-                color: Colors.amber[500],
+                color: Color.fromARGB(255, 246, 111, 58),
                 fontWeight: FontWeight.bold
               ),),
               
               Text('Order At Your Convenience!',
               style: TextStyle(
-                color: Colors.amberAccent,
+                color: Color.fromARGB(255, 246, 111, 58),
+              
                 fontSize: 30,
                ),),
             ],
