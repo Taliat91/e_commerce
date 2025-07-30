@@ -1,6 +1,6 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:e_commerce/pages/signup_pg.dart';
+import 'package:e_commerce/pages/login_pg.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
   Future.delayed(const Duration(seconds: 5), () {
     Navigator.push(context, MaterialPageRoute(builder: (context) {
-      return SignUpPage();
+      return LoginPage();
     }));
   });
     super.initState();
